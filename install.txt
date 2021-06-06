@@ -1,0 +1,20 @@
+How to install IPFS on Linux or Ubuntu
+In this demo I will install the IPFS through the command line.
+
+1- sudo -s
+2- wget https://dist.ipfs.io/go-ipfs/v0.8.0/go-ipfs_v0.8.0_linux-amd64.tar.gz
+3- tar xvfz go-ipfs_v0.8.0_linux-amd64.tar.gz
+4- cd go-ipfs
+5- sudo ./install.sh
+Finaly we need to check if the IPFS  has installed on our linux machine.
+6- ipfs --version
+
+How to initiate the IPFS
+We can initiate and runing IPFS.
+1- Use Chrome, search for the IPFS extension and add IPFS Companion
+https://chrome.google.com/webstore/category/extensions
+2- ipfs init
+3- ipfs daemon
+
+Done...
+
